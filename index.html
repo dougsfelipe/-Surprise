@@ -1,50 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Just Click</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <script>
-            function play(){
-                 var audio = document.getElementById("audio");
-                 audio.play();
-                           }
-             </script>
+  
+  <title>Freelancer - Start Bootstrap Theme</title>
+
+  <!-- Custom fonts for this theme -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="freelancer.css" rel="stylesheet">
+  <link href="freelancer.min.css" rel="stylesheet">
+
+  <script>
+      function play(){
+        var elemento = document.getElementById("porco");
+        elemento.style.display = none;
+           var audio = document.getElementById("audio");
+           audio.play();
+                     }
+                    </script>
+                   
+  
 </head>
-<body>
-    <div class="fundo" style="background-image: url(fundo.jpg);width: 100%; height: 100vh;background-size: cover;background-repeat: no-repeat">
-    <button value="PLAY" style="margin-left: 800px;margin-top: 400px;
-    
-    
-    
-	box-shadow:inset 0px -3px 7px 0px #29bbff;
-	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
-	background-color:#2dabf9;
-	border-radius:3px;
-	border:1px solid #0b0e07;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	padding:9px 23px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #263666;
+
+<body id="page-top">
 
 
+  <!-- Masthead -->
+  <header class="masthead bg-primary text-white text-center" style="background-color: #ff99cc
+  ">
+    <div class="container d-flex align-items-center flex-column">
 
-"  onclick="play()"></buttonvalue>
-        Click for a surprise
-    </button>
-    
-<audio id="audio" src="musica.mp3" ></audio>
+      <!-- Masthead Avatar Image -->
+      <img class="masthead-avatar mb-5" src="img/avataaars.svg"  style="display:none" alt="Eu vou ganhar">
 
-</div>
- </body>
+      
+      <div id=porco> <img src="porco.jpeg" id="porco" alt="Telesena" >	</div>
+ 
+
+      <!-- Masthead Heading -->
+      <h1 class="masthead-heading text-uppercase mb-0">If you want Change your LIFE</h1>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Masthead Subheading -->
+      <p class="masthead-subheading font-weight-light mb-0">Just click the button</p>
+
+    </div>
+  </header>
+
+  <!-- Portfolio Section -->
+  <section class="page-section portfolio" id="portfolio">
+    <div class="container" style="justify-content: center;
+    align-items: center;
+    display: flex;">
+
+     
+        <button value="PLAY" type="button" class="btn btn-primary btn-lg"  onclick="play()" ></buttonvalue>
+            Shinji click the Fucking button
+      </button>
+      <!-- /.row -->
+      <audio id="audio" src="musica.mp3" ></audio>
+    </div>
+  </section>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+
 </body>
+
 </html>
