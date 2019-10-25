@@ -9,7 +9,7 @@
   <meta name="author" content="">
 
   
-  <title>Freelancer - Start Bootstrap Theme</title>
+  <title>Click to change your life</title>
 
   <!-- Custom fonts for this theme -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -19,15 +19,14 @@
   <!-- Theme CSS -->
   <link href="freelancer.css" rel="stylesheet">
   <link href="freelancer.min.css" rel="stylesheet">
-
-  <script>
+<script language="javascript">
       function play(){
-        var elemento = document.getElementById("porco");
-        elemento.style.display = none;
-           var audio = document.getElementById("audio");
-           audio.play();
-                     }
-                    </script>
+      var porco = document.getElementById("porco");
+      porco.removeAttribute("hidden");
+      var audio = document.getElementById("audio");
+      audio.play();
+}
+</script>
                    
   
 </head>
@@ -44,7 +43,7 @@
       <img class="masthead-avatar mb-5" src="img/avataaars.svg"  style="display:none" alt="Eu vou ganhar">
 
       
-      <div id=porco> <img src="porco.jpeg" id="porco" alt="Telesena" >	</div>
+      <div id="porcoDIV" size> <img src="porco.jpeg" id=porco alt="Telesena"  hidden>	</div>
  
 
       <!-- Masthead Heading -->
@@ -79,21 +78,6 @@
       <audio id="audio" src="musica.mp3" ></audio>
     </div>
   </section>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/freelancer.min.js"></script>
-
 </body>
 
 </html>
